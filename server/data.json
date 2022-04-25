@@ -1,0 +1,60 @@
+{ "data": [
+
+    {
+    "name": "Adam",
+    "owes": {
+      "Bob": 12.0,
+      "Chuck": 4.0,
+      "Dan": 9.5
+    },
+    "owed_by": {
+      "Bob": 6.5,
+      "Dan": 2.75
+    },
+    "balance": "<(total owed by other users) - (total owed to other users)>"
+},
+
+{
+    "name": "Bob",
+    "owes": {
+      "Adam": 12.0,
+      "Chuck": 4.0,
+      "Dan": 9.5
+    },
+    "owed_by": {
+      "Adam": 6.5,
+      "Dan": 2.75
+    },
+    "balance": "<(total owed by other users) - (total owed to other users)>"
+},
+
+{
+    "name": "Chuck",
+    "owes": {
+      "Bob": 12.0,
+      "Adam": 4.0,
+      "Dan": 9.5
+    },
+    "owed_by": {
+      "Bob": 6.5,
+      "Dan": 2.75
+    },
+    "balance": "<(total owed by other users) - (total owed to other users)>"
+  },
+
+  {
+    "name": "Dan",
+    "owes": {
+      "Bob": 12.0,
+      "Chuck": 4.0,
+      "Adam": 9.5
+    },
+    "owed_by": {
+      "Bob": 6.5,
+      "Adam": 2.75
+    },
+    "balance": "<(total owed by other users) - (total owed to other users)>"
+  }
+
+]
+}
